@@ -1,0 +1,295 @@
+/* Стили для больших экранов */
+@media screen and (min-width: 1200px) {
+   .mail{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    left: 170px;
+    top: 90px;
+   }
+   .big_white_boxlast span{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 40px;
+      height: 100px;
+      width: 3px;
+      top: 70px;
+   }
+   .konec123{
+   position: relative;
+    top: 25px;
+   }
+   .big_white_boxlast span::after{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 460px;
+      height: 155px;
+      width: 3px;
+      top: 610px;
+      transform: rotate(-90deg);
+      bottom: 10px;
+      content: "";
+   }
+   .zagolovok{
+      font-size: 36px;
+   }
+   .phone{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    left: 650px;
+    bottom: 40px;
+   } 
+   .big_white_boxlast{
+      background-color: #FFFF;
+      width: 1000px;
+      height: 800px;
+      position: relative;
+      margin: 0 265px;
+   }
+   .map {
+    width: 950px;
+    height: 400px;
+    margin: 0 150px;
+    position: relative;
+    bottom: 35px;
+   }
+   .big_white_boxlast .text_c{
+    color: #000;
+    font-size: 26px;
+    position: relative;
+    font-family: "Inter";
+    font-weight: 100;
+   }
+   .big_white_boxlast .text_cc{
+    position: relative;
+    top: 15px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 18px;
+   }
+   .contacts_last{
+      position: relative;
+      bottom: -5px;
+      left: 150px;
+   }
+   .contacts_last a{
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 18px;
+      position: relative;
+   }
+  }
+  
+  /* Стили для средних экранов */
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+   .mail, .phone, .map {
+     width: 100%;
+     height: auto;
+     left: 0;
+     bottom: 0;
+   }
+   .big_white_boxlast .text_c, .big_white_box .text_cc, .contacts_last a {
+     font-size: 16px;
+   }
+   .big_white_boxlast{
+      background-color: #FFFF;
+      width: 1000px;
+      height: 800px;
+      position: relative;
+      margin: 0 265px;
+   }
+   .big_white_boxlast span{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 40px;
+      height: 100px;
+      width: 3px;
+      top: 70px;
+   }
+   .big_white_boxlast span::after{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 460px;
+      height: 155px;
+      width: 3px;
+      top: 610px;
+      transform: rotate(-90deg);
+      bottom: 10px;
+      content: "";
+   }
+   .zagolovok{
+   position: relative;
+   z-index: 2;
+   text-align: center;
+   top: 120px;
+   font-size: 46px;
+   }
+   .big_white_boxlast .text_c{
+      position: relative;
+      top: 50px;
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: "Inter";
+      font-size: 24px;
+      left: 210px;
+   }
+   .big_white_boxlast .text_cc{
+      position: relative;
+      top: 70px;
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: "Inter";
+      font-size: 18px;
+      left: 210px;
+   }
+   .phone{
+      width: 340px;
+      position: relative;
+      left: 360px;
+      bottom: 50px;
+   }
+   .map{
+      margin: 0px 150px;
+      position: relative;
+      top: 80px;
+   }
+   .contacts_last{
+      margin: 0 150px;
+      position: relative;
+      top:100px;
+   }
+   .contacts_last a{
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 18px;
+   }
+   .konec123{
+      position: relative;
+      top: 25px;     
+   }
+  }
+  
+  /* Стили для маленьких экранов */
+  @media screen and (max-width: 767px) {
+   .mail, .phone, .map {
+     width: 100%;
+     height: auto;
+     left: 0;
+     bottom: 0;
+   }
+   .mail{
+      left: -100px;
+      position: relative;
+   }
+   .big_white_boxlast{
+      background-color: #FFFF;
+      width: 1000px;
+      height: 1180px;
+      position: relative;
+      margin: 200px 265px;
+      top: 80px;
+   }
+   .big_white_boxlast span{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 40px;
+      height: 100px;
+      width: 3px;
+      top: 70px;
+   }
+   .big_white_boxlast span::after{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 460px;
+      height: 155px;
+      width: 3px;
+      top: 950px;
+      transform: rotate(-90deg);
+      bottom: 10px;
+      content: "";
+   }
+   .zagolovok{
+      font-size: 56px;
+   }
+   .big_white_boxlast .text_c{
+      position: relative;
+      top: 50px;
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: "Inter";
+      font-size: 40px;
+      left: 210px;
+   }
+   .big_white_boxlast .text_cc{
+      position: relative;
+      top: 70px;
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: "Inter";
+      font-size: 30px;
+      left: 210px;
+   }
+   .phone{
+      width: 340px;
+      position: relative;
+      left: 430px;
+      bottom: 80px;
+   }
+   .map{
+      margin: 0px 50px;
+      position: relative;
+      top: 100px;
+   }
+   .contacts_last{
+      margin: 0 150px;
+      position: relative;
+      top: 130px;
+  }
+   .contacts_last a{
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 30px;
+   }
+   .header_logo{
+   position: relative;
+    z-index: 3;
+    padding: 0px 0px 0px 0px;
+    width: 90px;
+    top: 15px;
+   }
+   h1{
+    font-weight: 100;
+    font-size: 42px;
+    position: relative;
+    top: 30px;
+   }
+   .rus{
+    z-index: 3;
+    position: absolute;
+    color: #FFFFFF;
+    right: 45px;
+    text-transform: uppercase;
+    font-size: 36px;
+    top: 15px;
+    text-decoration: none;
+   }
+   header{
+      height: 150px;
+   }
+  }

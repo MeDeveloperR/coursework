@@ -1,0 +1,528 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@media screen and (min-width: 1200px) {
+.box_from_img img{
+   position: relative;
+   width: 100%;
+   height: 850px;
+}
+.one{
+   height: 850px;
+   position: relative;
+}
+.white_box{
+   width: 405px;
+   height: 280px;
+   background-color: #FFFF;
+   position: relative;
+   bottom: 600px;
+   left: 260px;
+}
+.white_box span{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 40px;
+   height: 50px;
+   width: 3px;
+   top: 60px;
+}
+.white_box span::after{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 160px;
+   height: 100px;
+   width: 3px;
+   top: 140px;
+   transform: rotate(-90deg);
+   bottom: 10px;
+   content: "";
+}
+.black_border{
+   width: 312px;
+   height: 190px;
+   border: 2px solid black;
+   position: relative;
+   bottom: 840px;
+   left: 900px;
+   background-color: #DDD2D2;
+}
+.white_box p{
+   position: relative;
+   margin: 0 35px;
+   left: 35px;
+   top: 75px;
+}
+.black_border p{
+   position: relative;
+   margin: 0 15px;
+   left: 0px;
+   top: 20px;
+   font-size: 15px;
+}
+.white_box1{
+   width: 402px;
+   height: 300px;
+   background-color: #FFFF;
+   position: relative;
+   bottom: 600px;
+   left: 820px;
+}
+.two{
+   position: relative;
+   height: 840px;
+}
+.white_box1 span{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 40px;
+   height: 50px;
+   width: 3px;
+   top: 60px;
+}
+.white_box1 span::after{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 160px;
+   height: 100px;
+   width: 3px;
+   top: 140px;
+   transform: rotate(-90deg);
+   bottom: 10px;
+   content: "";
+}
+.white_box1 p{
+   position: relative;
+   margin: 0 35px;
+   left: 35px;
+   top: 55px;
+}
+.black_border1 p{
+   position: relative;
+   font-size: 15px;
+   margin: 0 16px;
+   top: 8px;
+}
+.black_border1{
+   width: 312px;
+   height: 190px;
+   border: 2px solid black;
+   position: relative;
+   bottom: 840px;
+   left: 260px;
+   background-color: #DDD2D2;
+}
+.third{
+   position: relative;
+   height: 850px;
+}
+.white_box2{
+   width: 405px;
+   height: 280px;
+   background-color: #FFFF;
+   position: relative;
+   bottom: 600px;
+   left: 260px;
+}
+.white_box2 span{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 40px;
+   height: 50px;
+   width: 3px;
+   top: 60px;
+}
+.white_box2 span::after{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 160px;
+   height: 100px;
+   width: 3px;
+   top: 140px;
+   transform: rotate(-90deg);
+   bottom: 10px;
+   content: "";
+}
+.white_box2 p{
+   position: relative;
+   margin: 0px 50px;
+   left: 28px;
+   top: 48px;
+}
+.black_border2{
+   width: 312px;
+   height: 190px;
+   border: 2px solid black;
+   position: relative;
+   bottom: 840px;
+   left: 900px;
+   background-color: #DDD2D2;
+}
+.black_border2 p{
+   position: relative;
+   margin: 0 15px;
+   left: 0px;
+   top: 20px;
+   font-size: 15px;
+}
+.o_nas{
+   margin: 0px 0px ;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)  {
+.box_from_img img{
+   position: relative;
+   width: 100%;
+   height: 850px;
+}
+.one{
+   height: 850px;
+   position: relative;
+}
+.white_box{
+   width: 405px;
+   height: 280px;
+   background-color: #FFFF;
+   position: relative;
+   bottom: 600px;
+   left: 260px;
+}
+.white_box span{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 40px;
+   height: 50px;
+   width: 3px;
+   top: 60px;
+}
+.white_box span::after{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 160px;
+   height: 100px;
+   width: 3px;
+   top: 140px;
+   transform: rotate(-90deg);
+   bottom: 10px;
+   content: "";
+}
+.black_border{
+   width: 312px;
+   height: 190px;
+   border: 2px solid black;
+   position: relative;
+   bottom: 840px;
+   left: 900px;
+   background-color: #DDD2D2;
+}
+.white_box p{
+   position: relative;
+   margin: 0 35px;
+   left: 35px;
+   top: 75px;
+}
+.black_border p{
+   position: relative;
+   margin: 0 15px;
+   left: 0px;
+   top: 20px;
+   font-size: 15px;
+}
+.white_box1{
+   width: 402px;
+   height: 300px;
+   background-color: #FFFF;
+   position: relative;
+   bottom: 600px;
+   left: 820px;
+}
+.two{
+   position: relative;
+   height: 840px;
+}
+.white_box1 span{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 40px;
+   height: 50px;
+   width: 3px;
+   top: 60px;
+}
+.white_box1 span::after{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 160px;
+   height: 100px;
+   width: 3px;
+   top: 140px;
+   transform: rotate(-90deg);
+   bottom: 10px;
+   content: "";
+}
+.white_box1 p{
+   position: relative;
+   margin: 0 35px;
+   left: 35px;
+   top: 55px;
+}
+.black_border1 p{
+   position: relative;
+   font-size: 15px;
+   margin: 0 16px;
+   top: 8px;
+}
+.black_border1{
+   width: 312px;
+   height: 190px;
+   border: 2px solid black;
+   position: relative;
+   bottom: 840px;
+   left: 260px;
+   background-color: #DDD2D2;
+}
+.third{
+   position: relative;
+   height: 850px;
+}
+.white_box2{
+   width: 405px;
+   height: 280px;
+   background-color: #FFFF;
+   position: relative;
+   bottom: 600px;
+   left: 260px;
+}
+.white_box2 span{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 40px;
+   height: 50px;
+   width: 3px;
+   top: 60px;
+}
+.white_box2 span::after{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 160px;
+   height: 100px;
+   width: 3px;
+   top: 140px;
+   transform: rotate(-90deg);
+   bottom: 10px;
+   content: "";
+}
+.white_box2 p{
+   position: relative;
+   margin: 0px 50px;
+   left: 28px;
+   top: 48px;
+}
+.black_border2{
+   width: 312px;
+   height: 190px;
+   border: 2px solid black;
+   position: relative;
+   bottom: 840px;
+   left: 900px;
+   background-color: #DDD2D2;
+}
+.black_border2 p{
+   position: relative;
+   margin: 0 15px;
+   left: 0px;
+   top: 20px;
+   font-size: 15px;
+}
+.o_nas{
+   margin: 0px 0px ;
+}
+}
+@media screen and (max-width: 767px)  {
+   .box_from_img img{
+      position: relative;
+      width: 100%;
+      height: 850px;
+   }
+   .one{
+      height: 850px;
+      position: relative;
+   }
+   .white_box{
+      width: 580px;
+      height: 410px;
+      background-color: #FFFF;
+      position: relative;
+      bottom: 600px;
+      left: 180px;
+   }
+   .white_box span{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 20px;
+      height: 50px;
+      width: 3px;
+      top: 40px;
+   }
+   .white_box span::after{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 270px;
+      height: 100px;
+      width: 3px;
+      top: 280px;
+      transform: rotate(-90deg);
+      bottom: 10px;
+      content: "";
+   }
+   .black_border{
+      width: 540px;
+      height: 300px;
+      border: 2px solid black;
+      position: relative;
+      bottom: 950px;
+      left: 864px;
+      background-color: #DDD2D2;
+   }
+   .white_box p{
+      position: relative;
+      margin: 0px 20px;
+      left: 30px;
+      top: 75px;
+      font-size: 27px;
+   }
+   .black_border p{
+      position: relative;
+      margin: 1px 10px;
+      left: 0px;
+      top: 20px;
+      font-size: 27px;
+   }
+   .white_box1{
+      width: 580px;
+      height: 410px;
+      background-color: #FFFF;
+      position: relative;
+      bottom: 600px;
+      left: 822px;
+   }
+   .two{
+      position: relative;
+      height: 840px;
+   }
+   .white_box1 span{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 20px;
+      height: 50px;
+      width: 3px;
+      top: 35px;
+   }
+   .white_box1 span::after{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 270px;
+      height: 100px;
+      width: 3px;
+      top: 290px;
+      transform: rotate(-90deg);
+      bottom: 10px;
+      content: "";
+   }
+   .white_box1 p{
+      position: relative;
+      margin: 0 35px;
+      left: 35px;
+      top: 55px;
+      font-size: 27px;
+   }
+   .black_border1 p{
+      position: relative;
+      font-size: 27px;
+      margin: 7px 16px;
+      top: 8px;
+   }
+   .black_border1{
+      width: 540px;
+      height: 300px;
+      border: 2px solid black;
+      position: relative;
+      bottom: 950px;
+      left: 176px;
+      background-color: #DDD2D2;
+   }
+   .third{
+      position: relative;
+      height: 850px;
+   }
+   .white_box2{
+      width: 580px;
+      height: 410px;
+      background-color: #FFFF;
+      position: relative;
+      bottom: 600px;
+      left: 175px;
+   }
+   .white_box2 span{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 20px;
+      height: 50px;
+      width: 3px;
+      top: 40px;
+   }
+   .white_box2 span::after{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 270px;
+      height: 100px;
+      width: 3px;
+      top: 280px;
+      transform: rotate(-90deg);
+      bottom: 10px;
+      content: "";
+   }
+   .white_box2 p{
+      position: relative;
+      margin: 0px 35px;
+      left: 28px;
+      top: 48px;
+      font-size: 27px;
+   }
+   .black_border2{
+      width: 540px;
+      height: 300px;
+      border: 2px solid black;
+      position: relative;
+      bottom: 950px;
+      left: 865px;
+      background-color: #DDD2D2;
+   }
+   .black_border2 p{
+      position: relative;
+      margin: 3px 20px;
+      left: 0px;
+      top: 20px;
+      font-size: 27px;
+   }
+   .o_nas{
+      margin: 0px 0px ;
+   }
+ }

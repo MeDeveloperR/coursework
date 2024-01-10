@@ -1,0 +1,463 @@
+@media screen and (min-width: 1200px) {
+.big_white_box{
+   background-color: #FFFF;
+   width: 1000px;
+   height: 800px;
+   position: relative;
+   margin: 0 265px;
+}
+.seca{
+   position: relative;
+   margin: 160px 0px 50px 0px;
+}
+.gray_box div{
+   background-color: #D9D9D9;
+   height: 190px;
+   width:260px;
+   z-index: 2;
+   position: relative;
+}
+
+.first_gray{
+   top: 50px;
+   left:80px;
+}
+.second_gray{
+   bottom: 140px;
+   left: 390px;
+}
+.third_gray{
+   bottom: 330px;
+   left: 700px;
+}
+.fourth_gray{
+   bottom: 280px;
+   left: 80px;
+}
+.fifth_gray{
+   bottom: 470px;
+   left: 390px;
+}
+.sixth_gray{
+   left: 700px;
+   bottom: 660px;
+}
+.zagolovok{
+   position: relative;
+   z-index: 2;
+   text-align: center;
+   top: 120px;
+   font-size: 36px;
+}
+.big_white_box span{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 40px;
+   height: 100px;
+   width: 3px;
+   top: 70px;
+}
+.big_white_box span::after{
+   position: absolute;
+   background-color: green;
+   display: block;
+   left: 460px;
+   height: 155px;
+   width: 3px;
+   top: 610px;
+   transform: rotate(-90deg);
+   bottom: 10px;
+   content: "";
+}
+.seventh_gray{
+   bottom: 610px;
+   left: 80px;
+}
+.eighth_gray{
+   bottom: 800px;
+   left: 390px;
+}
+.ninth_gray{
+   bottom: 990px;
+   left: 700px;
+}
+.gray_box{
+   height: 1200px;
+}
+.first_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.second_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.third_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.fourth_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.fifth_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.sixth_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.seventh_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.eighth_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.ninth_gray img{
+   position: relative;
+   height: 170px;
+   width: 240px;
+   left: 10px;
+   top: 10px;
+}
+.partner{
+   margin: 0 0;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+   .big_white_box{
+      background-color: #FFFF;
+      width: 1000px;
+      height: 800px;
+      position: relative;
+      margin: 0 265px;
+   }
+   .seca{
+      position: relative;
+      margin: 160px 0px 50px 0px;
+   }
+   .gray_box div{
+      background-color: #D9D9D9;
+      height: 190px;
+      width:260px;
+      z-index: 2;
+      position: relative;
+   }
+   
+   .first_gray{
+      top: 50px;
+      left:80px;
+   }
+   .second_gray{
+      bottom: 140px;
+      left: 390px;
+   }
+   .third_gray{
+      bottom: 330px;
+      left: 700px;
+   }
+   .fourth_gray{
+      bottom: 280px;
+      left: 80px;
+   }
+   .fifth_gray{
+      bottom: 470px;
+      left: 390px;
+   }
+   .sixth_gray{
+      left: 700px;
+      bottom: 660px;
+   }
+   .zagolovok{
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      top: 120px;
+      font-size: 36px;
+   }
+   .big_white_box span{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 40px;
+      height: 100px;
+      width: 3px;
+      top: 70px;
+   }
+   .big_white_box span::after{
+      position: absolute;
+      background-color: green;
+      display: block;
+      left: 460px;
+      height: 155px;
+      width: 3px;
+      top: 610px;
+      transform: rotate(-90deg);
+      bottom: 10px;
+      content: "";
+   }
+   .seventh_gray{
+      bottom: 610px;
+      left: 80px;
+   }
+   .eighth_gray{
+      bottom: 800px;
+      left: 390px;
+   }
+   .ninth_gray{
+      bottom: 990px;
+      left: 700px;
+   }
+   .gray_box{
+      height: 1200px;
+   }
+   .first_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .second_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .third_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .fourth_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .fifth_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .sixth_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .seventh_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .eighth_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .ninth_gray img{
+      position: relative;
+      height: 170px;
+      width: 240px;
+      left: 10px;
+      top: 10px;
+   }
+   .partner{
+      margin: 0 0;
+   }
+   }
+   @media screen and (max-width: 767px) {
+      .big_white_box{
+         background-color: #FFFF;
+         width: 1200px;
+         height: 2100px;
+         position: relative;
+         margin: 0px 160px;
+         top: 100px;
+     }
+      .seca{
+         position: relative;
+         margin: 160px 0px 50px 0px;
+      }
+      .gray_box div{
+         background-color: #D9D9D9;
+         height: 340px;
+         width: 500px;
+         z-index: 2;
+         position: relative;
+      }
+      
+      .first_gray{
+         top: 70px;
+         left: 90px;
+      }
+      .second_gray{
+         bottom: 270px;
+         left: 660px;
+      }
+      .third_gray{
+         bottom: 210px;
+         left: 90px;
+      }
+      .fourth_gray{
+         bottom: 550px;
+         left: 660px;
+      }
+      .fifth_gray{
+         bottom: 490px;
+         left: 90px;
+      }
+      .sixth_gray{
+         left: 660px;
+         bottom: 830px;
+      }
+      .zagolovok{
+         position: relative;
+         z-index: 2;
+         text-align: center;
+         top: 200px;
+         font-size: 56px
+      }
+      .big_white_box span{
+         position: absolute;
+         background-color: green;
+         display: block;
+         left: 40px;
+         height: 100px;
+         width: 3px;
+         top: 70px;
+      }
+      .big_white_box span::after{
+         position: absolute;
+         background-color: green;
+         display: block;
+         left: 570px;
+         height: 155px;
+         width: 3px;
+         top: 1900px;
+         transform: rotate(-90deg);
+         bottom: 10px;
+         content: "";
+      }
+      .seventh_gray{
+         bottom: 770px;
+         left: 90px;
+      }
+      .eighth_gray{
+         bottom: 1110px;
+         left: 660px;
+      }
+      .ninth_gray{
+         bottom: 1050px;
+         left: 370px;
+      }
+      .gray_box{
+         height: 1200px;
+      }
+      .first_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .second_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .third_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .fourth_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .fifth_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .sixth_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .seventh_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .eighth_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+      .ninth_gray img{
+         position: relative;
+         height: 320px;
+         width: 480px;
+         left: 10px;
+         top: 10px;
+      }
+   .partner{
+      margin: 200px 0;
+   }
+}
